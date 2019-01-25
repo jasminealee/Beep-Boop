@@ -13,14 +13,27 @@ $(document).ready(function() {
 
     for (var x = 0; x <= user; x++) {
       if (list[x] % 3 === 0 && list[x] !== 0) {
-        list.splice(x, 1, "I'm sorry, Dave. I'm afraid I can't do that.");
+        list.splice(x, 1, "hal.");
       }
     };
+
     for (var x = 0; x <= user; x++) {
-      if (list[x] === contains ["0"]) {
+      if (list[x] % 10 === 1) {
+        list.splice(x, 1, "Beep");
+      }
+    };
+
+    for (var x = 0; x <= user; x++) {
+      if (list[x] % 10 === 0) {
         list.splice(x, 1, "Boop");
       }
     };
+
+
+
+
+
+
 
 
 
