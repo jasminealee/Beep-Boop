@@ -7,10 +7,15 @@
 $(document).ready(function() {
   $("#beep-boop").submit(function(event) {
 
-    if ("0");
-      return "yes";
+    var answersTo = function(user) {
+      if (user % 3 === 0) {
+        return true;
+      } else {
+        return false;
+      }
+    };
 
- }
+     }
     var user = parseInt($("#userInput").val());
     var list = [];
     for (var i = 0; i <= user; i++) {
