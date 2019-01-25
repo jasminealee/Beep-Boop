@@ -1,23 +1,26 @@
-var beepBoop = function(str) {
+var checkDigits = function(str) {
   if (str === "0") {
-    return "beep";
+    return true;
+  }
+  else {
+    return false;
   }
 }
 
 
 $(document).ready(function() {
-  $("form#beep-boop").submit(function(event) {
+  $("button#submit").submit(function(event) {
 
-    var number = parseInt($("input#number").val());
-    for (var i = 0; i < number.length; i++) {
-      if (beepBoop(number[i])) {
-        number[i] = "-";
+    var value = parseInt($("#number").val());
+    for (var i = 0; i < value.length; i++) {
+      if(checkDigits(value[i])) {
+        value[i] = "-";
       }
     }
 
-    var result = beepBoop(number);
+    var result = value.join("");
 
-    $("#output").append(result);
+    $("#userOutput").append(result);
 
     event.preventDefault();
   });
