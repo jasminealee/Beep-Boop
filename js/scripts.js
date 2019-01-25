@@ -5,21 +5,28 @@
 // }
 
 $(document).ready(function() {
-  $("button#submit").submit(function(event) {
+  $("#beep-boop").submit(function(event) {
 
+    var user = parseInt($("#userInput").val());
 
+    var list = [];
 
-    var enteredInfo = $("#userInput").val();
-    var list=[];
-    for (var i = 0; i <= value; i++) {
+    for (var i = 0; i <= user; i++) {
       list.push(i);
-      }
+    }
 
 
-    var result = value.join("");
 
-    $("#userOutput").append(result);
 
+
+
+
+
+
+
+
+
+    $("#result").text(list);
     event.preventDefault();
     });
   });
