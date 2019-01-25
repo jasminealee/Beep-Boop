@@ -1,27 +1,25 @@
-var checkDigits = function(str) {
-  if (str === "0") {
-    return true;
-  }
-  else {
-    return false;
-  }
-}
-
+// var checkDigits = function() {
+//   if ("0") {
+//
+//   }
+// }
 
 $(document).ready(function() {
   $("button#submit").submit(function(event) {
 
-    var value = parseInt($("#number").val());
-    for (var i = 0; i < value.length; i++) {
-      if(checkDigits(value[i])) {
-        value[i] = "-";
+
+
+    var enteredInfo = $("#userInput").val();
+    var list=[];
+    for (var i = 0; i <= value; i++) {
+      list.push(i);
       }
-    }
+
 
     var result = value.join("");
 
     $("#userOutput").append(result);
 
     event.preventDefault();
+    });
   });
-});
