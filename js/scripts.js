@@ -18,7 +18,7 @@ $(document).ready(function() {
     };
 
     for (var x = 0; x <= user; x++) {
-      if (list[x] % 10 === 1) {
+      if (list[x] === contains("1") {
         list.splice(x, 1, "Beep");
       }
     };
