@@ -17,20 +17,12 @@ $(document).ready(function() {
       }
     };
 
-    for (var x = 0; x <= user; x++) {
-      if (list[x] === contains("1") {
+
+    for (var x = 0; x <= user; x) {
+      if ([x].includes(1)) {
         list.splice(x, 1, "Beep");
       }
     };
-
-    for (var x = 0; x <= user; x++) {
-      if (list[x] % 10 === 0) {
-        list.splice(x, 1, "Boop");
-      }
-    };
-
-
-
 
 
 
