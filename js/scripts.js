@@ -7,9 +7,11 @@ $(document).ready(function() {
     var list = [];
 
     for (var i = 0; i <= user; i++) {
-      if (list[i] % 3 === 0 && list[i] !== 0) {
-        list.splice(i, 1, "hal.");
+
+      if ( i % 3 === 0 && i !== 0) {
+        list.push("hal.");
       }
+
       else if (i.toString().includes("1")) {
         list.push("Boop");
       }
