@@ -8,8 +8,8 @@ $(document).ready(function() {
 
     for (var i = 0; i <= user; i++) {
 
-      if ( i % 3 === 0 && i !== 0) {
-        list.push("hal.");
+      if (i % 3 === 0 && i !== 0) {
+        list.push("I'm sorry, Dave. I'm afraid I can't d that.");
       }
 
       else if (i.toString().includes("1")) {
