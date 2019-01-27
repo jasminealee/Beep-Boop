@@ -7,25 +7,22 @@ $(document).ready(function() {
     var list = [];
 
     for (var i = 0; i <= user; i++) {
-      list.push(i);
+      if (i.toString().includes("1")) {
+        list.push("Boop");
+      }
+      else {
+        list.push(i);
+      }
     }
 
 
-    for (var x = 0; x <= user; x++) {
-      if (list[x] % 3 === 0 && list[x] !== 0) {
-        list.splice(x, 1, "hal.");
+    for (var i = 0; i <= user; i++) {
+      if (list[i] % 3 === 0 && list[i] !== 0) {
+        list.splice(i, 1, "hal.");
       }
+
+
     };
-
-
-    for (var x = 0; x <= user; x) {
-      if ([x].includes(1)) {
-        list.splice(x, 1, "Beep");
-      }
-    };
-
-
-
 
 
 
