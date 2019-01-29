@@ -1,6 +1,6 @@
 # The Beep-Boop Translator
 
-#### Week 2 Independent Project Regarding Beeps and Boops, January 27, 2019
+#### Week 3 Independent Project Regarding Beeps and Boops, January 27, 2019
 
 #### By Jasmine Lee
 
@@ -10,7 +10,7 @@
 ## Specifications
   This webpage allows a user to input a number. It lists all of the numbers from zero to that input. Below, is a list of characteristics. The numbers between zero and the input that follow any of these characteristics will be replaced accordingly:
 
-  * Any multiple of 3 within the inputed value will be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+  * Any multiple of 3 within the inputed value will be replaced with "I'm sorry, Dave. I'm afraid I can't do that." (If the user inputs a name in the "Please Enter Name" text box, the name is swapped in place of Dave.)
   * Any number with a 1 is replaced with "Boop!"
   * Any number with a 0 is replaced with "Beep!"
 
@@ -19,7 +19,7 @@
 * Open GitHub and go to https://github.com/jasminealee/Beep-Boop click "clone or download"; copy the url provided.
 * Go to Terminal and clone the folder by typing "git clone (repository url)" then enter.
 * Open the folder in atom or your choice of text editor.
-* Or go to view the project at https://jasminealee.github.io/Beep-Boop/
+* Or go to view the project website at https://jasminealee.github.io/Beep-Boop/
 
 ## Known Bugs
 No known bugs
