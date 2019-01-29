@@ -32,13 +32,13 @@ $(document).ready(function() {
       }
     }
 
-    $("#result").text(list);
+    $("#result").show().text(list);
     event.preventDefault();
   });
 
   $("#refresh").submit(function(event) {
-     $("#result").hide();
-     event.preventDefault();
+    event.preventDefault();
+    $("#result").hide();
   });
 
 });
